@@ -50,10 +50,10 @@
       </div>
     </nav>
 
-    <div class="page-cont">
-      <a href="index.html" class="arrow"
-        ><i class="bi bi-caret-left-fill"></i
-      ></a>
+    <div class="page-cont" style="width: 500px">
+      <button onclick="goBack()" class="arrow">
+        <i class="bi bi-caret-left-fill"></i>
+      </button>
       <h1>References</h1>
       <p class="fs-5" style="text-align: left; margin-top: 30px">
         Image Citations:
@@ -78,5 +78,11 @@
         AP Computer Science Principles | Dr. Ole Sheldon | Cyber Issues Project
       </p>
     </footer>
+
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
   </body>
 </html>

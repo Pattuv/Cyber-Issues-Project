@@ -116,24 +116,20 @@ section {
 .btn-primary {
   background-color: rgb(183, 0, 255);
   border: none;
-  width: 200px;
 }
 
 .btn-primary:hover {
   background-color: rgb(133, 0, 185);
   border: none;
-  width: 200px;
 }
 
 .btn-primary:active {
   background-color: rgb(183, 0, 255);
   border: none;
-  width: 200px;
 }
 
 .page-cont {
   margin-top: 50px !important;
-  width: 500px;
   margin: auto;
 }
 
@@ -142,4 +138,7 @@ section {
   display: inline-block;
   font-size: 30px;
   text-align: left;
+  background: none;
+  border: none;
+  color: white;
 }
