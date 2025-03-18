@@ -130,3 +130,16 @@ section {
   border: none;
   width: 200px;
 }
+
+.page-cont {
+  margin-top: 50px !important;
+  width: 500px;
+  margin: auto;
+}
+
+.arrow {
+  margin-bottom: 30px !important;
+  display: inline-block;
+  font-size: 30px;
+  text-align: left;
+}
