@@ -1,0 +1,127 @@
+body {
+  text-align: center;
+  margin: auto;
+  font-family: "dm sans", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background-color: #342643ff;
+  color: white;
+}
+
+nav {
+  font-weight: 550;
+  z-index: 10000;
+  background-color: #342643ff;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+spline-viewer {
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+section {
+  color: white;
+  z-index: 9999;
+}
+
+.title {
+  font-size: 4rem;
+  margin-top: 3em;
+  margin-bottom: 0.3em;
+}
+
+.title,
+.subtitle {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  font-weight: 400;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.footer p {
+  margin: 0;
+  font-weight: 300;
+  color: white;
+}
+.col-md-4 {
+  margin-bottom: 10px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+iframe {
+  width: 100%;
+  height: 90vh; /* Reduced height to leave space for the section */
+
+  top: 0;
+  left: 0;
+  z-index: 1; /* Ensures it's below the section */
+}
+
+section {
+  position: absolute;
+  top: 30%; /* Center vertically */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2; /* Ensures it's above the iframe */
+}
+
+.btn-primary {
+  background-color: rgb(183, 0, 255);
+  border: none;
+  width: 200px;
+}
+
+.btn-primary:hover {
+  background-color: rgb(133, 0, 185);
+  border: none;
+  width: 200px;
+}
+
+.btn-primary:active {
+  background-color: rgb(183, 0, 255);
+  border: none;
+  width: 200px;
+}
