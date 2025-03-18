@@ -9,7 +9,6 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden;
   text-align: center;
   background-color: #342643ff;
   color: white;
@@ -126,11 +125,14 @@ section {
 .btn-primary:active {
   background-color: rgb(183, 0, 255);
   border: none;
+  margin-bottom: 50px !important;
 }
 
 .page-cont {
   margin-top: 50px !important;
   margin: auto;
+  margin-bottom: 50px !important;
+  padding: 30px;
 }
 
 .arrow {
@@ -148,4 +150,5 @@ img {
   height: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
